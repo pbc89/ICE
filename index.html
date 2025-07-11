@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz: ICE agent or foreign terrorist?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ICE agent or foreign terrorist?</h1>
+  <div id="quiz-container">
+    <img id="quiz-image" src="" alt="Image">
+    <div id="buttons">
+      <button onclick="guess('cat')">ICE agent</button>
+      <button onclick="guess('dog')">Foreign terrorist</button>
+    </div>
+    <p id="progress"></p>
+  </div>
+  <div id="result-container" style="display: none;">
+    <h2>Your Score: <span id="score"></span></h2>
+    <button onclick="restartQuiz()">Play Again</button>
+    <div id="share-buttons"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
